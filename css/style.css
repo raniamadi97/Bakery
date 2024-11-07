@@ -1,0 +1,483 @@
+
+
+body {
+
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.clear-fix{
+
+    clear:both;
+}
+
+header {
+
+    background-image: url('../images/drew-coffman-1872.jpg'); 
+    background-size: cover; 
+    width: 100%;
+    height: 100vh;
+    /* padding: 0 2%; */
+    background-repeat: no-repeat; 
+    overflow: auto;
+    
+}
+
+nav img{
+
+    float:left;
+
+}
+nav{
+
+    /* display:flex;
+    justify-content: space-between; 
+    align-items:center;  */
+    overflow: none;
+    background-color: rgba(0, 0, 0, 0.259)  ;
+    
+}
+
+nav ul{
+
+    float:right;
+    list-style-type: none;
+    margin-right: 3%;
+    }
+
+nav li{
+
+    padding: 5px 0;
+    float:left;
+    margin:20px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+
+.logo {
+
+    margin: 15px 0 0 70px;
+    width: 180px;
+   
+}
+
+.content{
+
+    color:aliceblue;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:90%;
+    max-width: 900px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content h1{
+
+    font-size: 70px;
+}
+
+
+.content h3{
+
+    font-size: 22px;
+}
+
+.content p{
+
+    font-size: 24px;
+}
+
+
+.first-button{
+
+    background-color: #8E7754 ;
+    padding: 20px;
+    color:#fff;
+    margin: 0 10px;
+    border:#8E7754;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.first-button:hover {
+    background-color: white;
+    color: black;
+
+  } 
+
+
+
+.second-button {
+
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+    margin: 0 10px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+}
+
+
+.second-button:hover {
+    background-color: white;
+    color: black;
+    
+  } 
+
+
+
+
+
+  /* Second Division >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+  .main-content{
+
+    overflow: auto;
+
+  }
+
+
+.left-contnet{
+
+    
+    width: 42%;
+    float: left;
+    
+}
+
+
+.left-contnet img {
+
+    width: 80%; 
+    margin: 6% 8%; 
+   
+}
+
+.right-contnet {
+
+    /* vertical-align: auto; */
+        width: 35%;
+        float: left;
+        margin: 50px;
+            
+    }
+
+ .right-contnet i{
+
+    border: 2px solid #8E7754;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #8E7754;
+    margin-right: 2%;
+    font-size: 20px;
+    
+        
+   } 
+
+
+/* Third division>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+    
+
+    .third-div{
+        background-color: #f8f8f8;
+        width:100%;
+        height: 600px;
+        overflow: auto;
+          
+
+    }
+
+    .right-con2{
+        /* background-color: red; */
+        width:40%;
+        float:left;
+        margin: 12% 5%;
+
+    }
+
+    .left-con2{
+
+        width:45%;
+        float:right;
+        /* background-color: red; */
+        
+
+    }
+
+    .left-con2 img{
+
+        width: 85%; 
+        margin: 5% 4%;
+                
+    } 
+
+
+/* Forth division   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.forth-div{
+
+    text-align: center;
+    margin: 0 9%;
+    width: fit-content;
+    overflow: auto;
+    margin-top: 3%;
+}
+
+
+.forth-con2 div{ 
+    /* background-color: red; */
+    text-align: center;
+    width: 31%;
+    padding: 0 1%;
+    margin-top: 60px;
+    float:left;
+    
+
+}
+
+.cookie img{
+
+    height: auto;
+    max-width: 100%;
+}
+
+.bread img{
+
+    height: auto;
+    max-width: 100%;
+}
+
+.bagel img{
+
+    height: auto;
+    max-width: 100%;
+    
+}
+
+
+/* Fifth division>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+   
+    margin-right: 20px;
+  }
+
+  /* Define the styles for the icon container */
+  .icon i {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #8E7754;
+    border-radius: 50%;
+    border: 2px solid #8E7754;
+    vertical-align:middle;
+    text-align:center;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    
+  }
+
+.fifth-div{
+
+    width:100%;
+    background-color: #f8f8f8;
+    overflow: auto;
+    padding: 4% 0;
+}
+
+ .fifth-con1{
+
+    float:left;
+    width:35%;
+    margin: 3% 10%;
+ }
+
+.fifth-con2{
+
+    float:right;
+    width:35%;
+    margin: 3% 5%;
+    
+}
+
+
+
+/* Sixth division>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.sixth-div{
+
+    height: auto;
+    min-width: 100%;
+    background-color: #403d38;
+    margin: 0;
+    padding: 4% 4%;
+    overflow: auto;
+    line-height: 30px;
+
+    
+
+}
+
+
+.sixth-div h3{
+
+    color: white;
+
+}
+
+.sixth-div div{
+    width:20%;
+    float:left;
+    padding: 0 2%;
+
+}
+.sixth-div p, ul{
+
+    color:#969696;
+}
+
+
+
+.custom-list-item {
+    list-style-type: none; 
+    position: relative; 
+  
+    /* Add an arrow to the left of the list item */
+
+    padding-left: 20px; 
+    margin: 20px 0;
+    
+  }
+  
+  .custom-list-item::before {
+    content: ">"; 
+    position: absolute;
+    left: 0;
+  }
+  
+  .custom-list-item::after {
+    content: "";
+    border-bottom: 2px solid #96969620; 
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%; 
+    
+  }
+
+  .icon{
+    /* padding-left: 20px;  */
+    margin: 20px 0;
+    padding : 0 2%;
+
+
+  }
+
+  .icon::after {
+    content: "";
+    border-bottom: 2px solid #96969650; 
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%; /* Make the underline span the full width of the list item */
+    
+  }
+
+
+
+
+/* Fotter division>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.footer{
+
+    background-color: #353330;
+    color:#777; 
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+    padding: 4% 0;
+
+}
+
+.footer a{
+
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #535353;
+  text-align: center;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background: rgba(0,0,0,0.08);
+  background-color: rgba(0, 0, 0, 0.08);
+  transition: color .3s, background-color .3s, border-color .3s;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  padding:1px;
+  cursor: pointer;
+}
+
+.facebook:hover{
+    background-color: blue;
+    color:white;
+}
+
+.google:hover{
+    background-color: red;
+    color:white;
+  
+
+}
+
+.linkedin:hover{
+    background-color: rgb(46, 161, 249);
+    color:white;
+    
+
+}
+.twitter:hover{
+    background-color:rgb(137, 196, 249);
+    color:white;
+    
+
+}
+
+
+
+
+.social-icon{
+
+    padding: 1% 0;
+}
+
+
